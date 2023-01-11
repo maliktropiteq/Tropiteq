@@ -1,0 +1,35 @@
+
+.client-head{
+    width: fit-content;
+    margin: auto;
+}
+.client-inner{
+    min-width: 80%;
+    margin: auto !important;
+}
+.client-logo{
+    margin: 0.5rem auto !important;
+    width: 120px;
+    height: 35px;
+}
+.our-values .ourValues-text{
+    width: 60%;
+}
+.our-values .relative{
+    width: 40%;
+}
+
+@media only screen and (max-width: 767px){
+    .our-values{
+        flex-direction: column;
+    }
+    .our-values .ourValues-text{
+        width: 96%;
+        margin: 1rem auto 0 auto;
+    }
+    .our-values .relative{
+        width: 96%;
+        margin: 1rem auto 0 auto;
+        height: 250px;
+    }
+}

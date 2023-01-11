@@ -1,0 +1,40 @@
+
+.banner .banner-text{
+    width: 50%;
+}
+.banner-inner h1{
+    font-weight: 700;
+    line-height: 60px;
+    font-size: 50px;
+}
+@media only screen and (max-width: 999px){
+    .banner .banner-text{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 767px){
+    .banner .banner-text{
+        width: 80%;
+    }
+    .banner-inner h1{
+        font-weight: 700;
+        line-height: 60px;
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 567px){
+    .banner .banner-text{
+        width: 95%;
+    }
+    .banner{
+        height: 250px !important;
+    }
+    .banner-inner h1{
+        font-weight: 700;
+        line-height: unset!important;
+        font-size: 20px;
+    }
+    .banner button{
+        padding: 0.5rem;
+    }
+}

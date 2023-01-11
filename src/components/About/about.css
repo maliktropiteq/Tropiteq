@@ -1,0 +1,37 @@
+.about{
+    
+}
+.about img{
+    height: 50%;
+    width: 10%;
+}
+.about-inner{
+    width: 80%;
+    margin: auto;
+    padding: 0 1rem 0 1rem ;
+}
+.about-bottom aside{
+    width: 48%;
+}
+@media only screen and (max-width: 800px){
+    .about img{
+        display: none;
+    }
+    .about-inner{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 700px){
+    .about-inner{
+        width: 99%;
+    }
+    .about-bottom{
+        flex-direction: column;
+    }
+    .about-bottom aside{
+        width: 100%;
+    }
+    .about h5{
+        font-size: 16px;
+    }
+}

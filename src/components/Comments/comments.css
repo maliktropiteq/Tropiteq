@@ -1,0 +1,34 @@
+.comments-head{
+    margin: auto;
+    width: fit-content;
+}
+.comments-inner{
+    width: 90%;
+    margin: auto;
+}
+.commentCard{
+    width: 220px;
+    height: 330px;
+    padding: 0.6rem;
+    margin: 1rem auto;
+}
+@media only screen and (max-width: 533px){
+    .commentCard{
+        width: 80%;
+        height: unset !important;
+    }
+    .personInfo{
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 400px){
+    .commentCard{
+        width: 95%;
+    }
+}
+.messContent{
+    text-align: center;
+}
+.personInfo{
+    text-align: center;
+}
